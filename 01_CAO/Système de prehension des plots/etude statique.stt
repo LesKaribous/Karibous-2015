@@ -1,0 +1,29 @@
+[parametre]
+unite=N;mm;
+precision=2;
+sys_isol=biellette;
+nb_AM=3;
+type=Plan;0;
+nb_EqSup=0;0;
+
+[AM1]
+sol=plot;
+pt=A;5;20;0;
+resultante=XA;0;0;
+moment=0;0;0;
+info=0|0;Sphère-plan de normale X;
+
+[AM2]
+sol=pivot;
+pt=B;0;0;0;
+resultante=XB;YB;0;
+moment=0;0;0;
+info=0|0;Articulation d'axe Z;
+
+[AM3]
+sol=servo;
+pt=C;20;-28,5;0;
+resultante=-21;-30;0;
+moment=0;0;0;
+info=0|0;Action connue;
+
